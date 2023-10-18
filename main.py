@@ -12,7 +12,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'YOUR_API_KEY_HERE'
 
 st.title("News research tool 📈")
 st.sidebar.title("news article urls")
